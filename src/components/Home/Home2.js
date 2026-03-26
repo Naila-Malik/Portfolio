@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 
 function Home2() {
@@ -16,14 +16,14 @@ function Home2() {
               I’m a Software Engineer who loves transforming ideas into
               reliable, scalable products. Over time, I’ve explored several
               technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              systems and intuitive user experiences mobile apps.
               <br />
               <br />
               I’m proficient in
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  JavaScript, TypeScript, React , React Native{" "}
                 </b>
               </i>
               — and I enjoy working across both backend and frontend stacks.
@@ -33,10 +33,11 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                  Web Applications, Mobile Apps inculding AI, Real Time Chat and
+                  many more Solutions,{" "}
                 </b>
               </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
+              and exploring new techs with industry updates.
               <br />
               <br />
               Whenever possible, I love building projects with
