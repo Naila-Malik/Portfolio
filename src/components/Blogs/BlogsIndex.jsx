@@ -4,7 +4,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../Projects/ProjectCards";
 import chatify from "../../Assets/Projects/chatify.png";
 import bitsOfCode from "../../Assets/Projects/suicide.png";
-import GPUInfrastructureBlog from "./GPUInfrastructureBlog";
 
 export default function BlogsIndex() {
   return (
