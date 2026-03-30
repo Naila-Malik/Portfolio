@@ -37,7 +37,7 @@ function Projects() {
               isBlog={false}
               title="CaseX"
               description="...."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              ghLink=""
               // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
@@ -81,7 +81,7 @@ function Projects() {
               isBlog={false}
               title="GB Police"
               description="...."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              ghLink=""
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
             />
           </Col>
