@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import mobileScout from "../../Assets/Projects/mobileScout.png";
+// import emotion from "../../Assets/Projects/emotion.png";
+import eiryWater from "../../Assets/Projects/eiryWater.png";
+import CubbyApp from "../../Assets/Projects/CubbyApp.png";
+import ghalaMandi from "../../Assets/Projects/ghalaMandi.png";
+import CaseX from "../../Assets/Projects/CaseX.png";
 
 function Projects() {
   return (
@@ -23,7 +23,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={CubbyApp}
               isBlog={false}
               title="Cubby"
               description="Cubby is a cross-platform mobile app I designed and developed to make fashion more interactive and fun. The app allows users to digitize their wardrobe, try outfits virtually, and share their style with friends — all powered by smart image processing."
@@ -33,7 +33,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={CaseX}
               isBlog={false}
               title="CaseX"
               description="...."
@@ -44,7 +44,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={eiryWater}
               isBlog={false}
               title="Eire Water"
               description="Discover and order your favorite water products with ease! Browse the store’s available items, add multiple products to your cart, and checkout seamlessly. Stay updated with notifications for new arrivals and never miss out on your essentials."
@@ -55,7 +55,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={mobileScout}
               isBlog={false}
               title="MobilScout"
               description="Buy, sell, and explore vehicles effortlessly! Upload your vehicle with images, and let our AI automatically extract key details for a smooth listing. Browse the latest vehicles and find your next ride in just a few taps."
@@ -66,7 +66,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={ghalaMandi}
               isBlog={false}
               title="E GhalaMandi"
               description="Buy and sell crops with ease! Upload your produce, explore available listings, and let buyers and sellers bid to get fair prices. Connect directly with the agriculture market and maximize value for every crop."
@@ -77,7 +77,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={ghalaMandi}
               isBlog={false}
               title="GB Police"
               description="...."

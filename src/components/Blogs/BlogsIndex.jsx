@@ -2,8 +2,8 @@ import React from "react";
 import Particle from "../Particle";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../Projects/ProjectCards";
-import chatify from "../../Assets/Projects/chatify.png";
-import bitsOfCode from "../../Assets/Projects/suicide.png";
+// import chatify from "../../Assets/Projects/chatify.png";
+import CubbyApp from "../../Assets/Projects/CubbyApp.png";
 
 export default function BlogsIndex() {
   return (
@@ -21,7 +21,7 @@ export default function BlogsIndex() {
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={chatify}
+                imgPath={CubbyApp}
                 isBlog={false}
                 title="GPU Infrastructure"
                 description="...."
@@ -31,7 +31,7 @@ export default function BlogsIndex() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={bitsOfCode}
+                imgPath={CubbyApp}
                 isBlog={false}
                 title="Coming Soon"
                 description="...."
@@ -39,7 +39,7 @@ export default function BlogsIndex() {
             </Col>
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={bitsOfCode}
+                imgPath={CubbyApp}
                 isBlog={false}
                 title="Coming Soon"
                 description="...."
