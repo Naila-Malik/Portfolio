@@ -7,7 +7,8 @@ import mobileScout from "../../Assets/Projects/mobileScout.png";
 import eiryWater from "../../Assets/Projects/eiryWater.png";
 import CubbyApp from "../../Assets/Projects/CubbyApp.png";
 import ghalaMandi from "../../Assets/Projects/ghalaMandi.png";
-import CaseX from "../../Assets/Projects/CaseX.png";
+import MeetMap from "../../Assets/Projects/MeetMap.png";
+import FOGO from "../../Assets/Projects/FOGO.png";
 
 function Projects() {
   return (
@@ -33,12 +34,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={CaseX}
+              imgPath={FOGO}
               isBlog={false}
-              title="CaseX"
-              description="...."
+              title="FoGo"
+              description="Connect with friends through seamless social interaction, real-time chat, and high-quality video calls. Upgrade to premium membership to unlock exclusive features and explore more of the app experience."
               ghLink=""
-              // demoLink="https://blogs.soumya-jit.tech/"
+              demoLink="https://vimeo.com/1182189154?share=copy"
             />
           </Col>
 
@@ -77,11 +78,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={ghalaMandi}
+              imgPath={MeetMap}
               isBlog={false}
-              title="GB Police"
-              description="...."
-              ghLink=""
+              title="MeetMap"
+              description="MeetMap helps travelers discover meaningful connections, turning every journey into a chance to meet new people and create lasting memories."
+              ghLink="https://github.com/Naila-Malik/meetMap"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
             />
           </Col>
