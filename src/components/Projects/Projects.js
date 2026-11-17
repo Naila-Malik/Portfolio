@@ -36,8 +36,8 @@ function Projects() {
             <ProjectCard
               imgPath={FOGO}
               isBlog={false}
-              title="FoGo"
-              description="Connect with friends through seamless social interaction, real-time chat, and high-quality video calls. Upgrade to premium membership to unlock exclusive features and explore more of the app experience."
+              title="Voice Translator"
+              description="A real-time voice translator for English and Urdu. Speak, and it detects your language and translates instantly.A minimal dark-mode Android app for two-way English–Urdu speech translation, built on Azure Speech with clear error handling."
               ghLink=""
               demoLink="https://vimeo.com/1182189154?share=copy"
             />
