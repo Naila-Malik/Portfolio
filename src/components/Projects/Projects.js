@@ -28,7 +28,7 @@ function Projects() {
               isBlog={false}
               title="Cubby"
               description="Cubby is a cross-platform mobile app I designed and developed to make fashion more interactive and fun. The app allows users to digitize their wardrobe, try outfits virtually, and share their style with friends — all powered by smart image processing."
-              demoLink="https://vimeo.com/manage/videos/1177044870"
+              demoLink="https://vimeo.com/1177044870?share=copy&fl=sv&fe=ci"
             />
           </Col>
 
